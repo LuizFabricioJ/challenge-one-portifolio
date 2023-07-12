@@ -1,0 +1,29 @@
+.academic__courses{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 1rem;
+    flex-wrap: wrap;
+}    
+.academic__title{
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.img__logo{
+    width: 20rem;
+    height: 300px;
+    border-radius: 5%;
+}
+.academic__nome {
+    text-align: center;
+    color: #000000;
+}
+p{
+    text-align: center;
+    color: #000000;
+}
+

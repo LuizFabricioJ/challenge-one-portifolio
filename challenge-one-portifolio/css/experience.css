@@ -1,0 +1,76 @@
+.experiencie__box{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+}
+.experience__section__title {
+    text-align: center;
+    color: #000000;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.experiencie__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.experiencie__list-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap:20px;
+}
+.experience__img{
+    max-width: 70%;
+    height: auto;
+    position: relative;
+}
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.experience__button{
+    display: flex;
+    gap: 20px;
+}
+.experiencia__botao--repo{
+    background-color: transparent;
+    border: 1px solid #5964ca;
+    border-radius: 5px;
+    color: #3e4dd3;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.15s ease 0s;
+}
+.experiencia__botao--demo{
+    background-color: #5964ca;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.15s ease 0s;
+}
+
+@media (max-width: 768px){
+    .experiencie__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .experiencie__list-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .experience__img{
+        max-width: 100vh;
+    }
+
+}

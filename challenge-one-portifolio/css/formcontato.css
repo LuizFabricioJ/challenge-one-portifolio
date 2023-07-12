@@ -1,0 +1,107 @@
+.formcontato{
+    padding: 50px;
+}
+.formcontato__contacto{
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;    
+}
+.form__title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.contato{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.form__nome{
+    background: #fff;
+    outline: none;
+    width: 100%;
+    padding: 28px 12px 7px;
+    border-radius: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.form__email{
+    background: #fff;
+    outline: none;
+    width: 100%;
+    padding: 28px 12px 7px;
+    border-radius: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.form__assunto{
+    background: #ffffff;
+    outline: none;
+    width: 100%;
+    padding: 28px 12px 7px;
+    border-radius: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.form__mensagem{
+    height: 150px;
+    resize: none;
+    background: #ffffff;
+    outline: none;
+    width: 100%;
+    padding: 28px 12px 7px;
+    border-radius: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+.form__botao{
+    width: 150px;
+    height: 71px;
+    background-color: rgb(42, 122, 228);
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.15s ease 0s;
+}
+
+@media (max-width: 768px){
+    .formcontato__img{
+        display: none;
+    }
+}

@@ -1,0 +1,20 @@
+.skills__line{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+}
+.skills h3{
+    text-align: center;
+    color: #000000;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.skills__img{
+    width: 10rem;
+    height: 200px;
+    border-radius: 5%;
+}

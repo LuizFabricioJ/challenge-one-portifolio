@@ -1,0 +1,21 @@
+.hobbies__line{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+}
+
+.hobbies__title{
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.hobbies__name{
+    text-align: center;
+    color: #000000;
+}

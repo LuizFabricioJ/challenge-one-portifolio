@@ -1,0 +1,42 @@
+*{
+    font-family: 'Raleway';
+    
+}
+.menu__titulo{
+    position: relative;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1220px;
+    margin: auto;
+}
+.logo__img{
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+.menu__titulo{
+    font-size: 18px;
+}
+.menu__list{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.menu__list__item{
+    color: #000000;
+}
+
+
+@media (max-width: 768px) {
+    nav li:not(:last-child) {
+        display: none;
+    }
+    .menu__list__item{
+        font-weight: bold;
+    }
+}
